@@ -1,0 +1,22 @@
+.awards {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .award-card {
+    width: 500px;
+    margin: 32px;
+
+    img {
+      height: 300px;
+    }
+    .mat-card-title {
+      display: flex;
+      justify-content: center;
+    }
+    .mat-card-subtitle {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

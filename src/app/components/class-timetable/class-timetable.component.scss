@@ -1,0 +1,16 @@
+.class-card {
+  width: 300px;
+  margin: 16px;
+
+  #deleteButton {
+    color: red;
+  }
+  .mat-card-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mat-card-subtitle {
+    display: flex;
+    justify-content: space-between;
+  }
+}

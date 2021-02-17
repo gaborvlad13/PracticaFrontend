@@ -1,0 +1,12 @@
+<div class="materii-container">
+  <ng-container *ngFor="let materie of materii$ | async; let i = index">
+    <app-class-timetable
+      [id]="materie.id"
+      [name]="materie.name"
+      [teachers]="materie.teachers"
+      [description]="materie.description"
+      (deleteEvent)="onDelete($event)"
+      (updateEvent)="onUpdate($event)"
+    ></app-class-timetable>
+  </ng-container>
+</div>

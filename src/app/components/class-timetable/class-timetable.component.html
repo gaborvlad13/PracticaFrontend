@@ -1,0 +1,19 @@
+<div class="class-card">
+  <mat-card class="mat-elevation-z12">
+    <mat-card-title>
+      <span>{{ name | uppercase }}</span></mat-card-title
+    >
+    <mat-card-subtitle>
+      <span>{{ teachers }}</span>
+    </mat-card-subtitle>
+    <mat-card-content>
+      <span>{{ description }}</span>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-flat-button (click)="update()">Modify</button>
+      <button id="deleteButton" mat-flat-button (click)="delete()">
+        Delete
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
